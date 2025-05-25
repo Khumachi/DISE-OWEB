@@ -1,0 +1,259 @@
+body{
+    font-family: 'Almarai';
+    background-color: #063048;
+    margin: 0%;
+}
+
+h1{
+    color: #EAE4B7;
+    font-size: 80px;
+}
+
+h2,h3{
+    color: #FBBE48;
+}
+
+a{
+    color:#EAE4B7;
+    text-decoration: solid;
+}
+html {
+  scroll-behavior: smooth; 
+}
+
+
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #041c2a;
+    color: #EAE4B7;
+    height: 100px;
+    width: 100%;
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    margin: 0px 15px;
+    padding: 40px;
+    font-size: 19px;
+
+}
+
+header div img{
+    width: 60px;
+    height: auto;
+    padding: 10px;
+}
+
+
+.banner{
+    background-image: url('/newyork-web/images/north-america-1803504_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1481px;
+    height: 740px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    transition: background-image 1s ease-in-out;
+  
+    
+}
+.banner h1 {
+
+    color: #EAE4B7;
+    font-size: 100px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0% 0 0 4%;
+    white-space: pre;
+
+}
+
+.banner p {
+    color: #EAE4B7;
+    font-size: 25px;
+    margin-left: 4%;
+    margin-bottom: 1px;
+    margin-top: 0%;
+    
+}
+
+.general-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EAE4B7;
+    height: 300px;
+    width: 90%;
+    gap: 20px;
+    margin-left: 4%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.general-info div{
+    width: 300px;
+    
+
+    
+    
+}
+
+.general-info p{
+    color: #EAE4B7;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.iconic-dishes{
+    
+    display: grid;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #041c2a;
+    
+}
+
+.iconic-dishes h1{
+    
+    font-size: 50px;
+    text-align: center;
+    color: #FBBE48;
+    
+}
+
+.newyork-dishes{
+    margin: 0px 0px 30px 30px;
+    width: 1481px;
+    height: 500px;
+}
+
+.newyork-dishes nav ol{
+    list-style: none;
+    margin: 0px 0px 30px 30px;
+    display:  flex;
+    height: 500px;
+    align-items: stretch;
+}
+
+.newyork-dishes nav ol li{
+    object-fit: cover;
+    margin: 0px 0px 30px 30px;
+    width: 400px;
+    overflow: hidden;
+    background-color: #161414;
+    align-items: flex-start;
+}
+
+.newyork-dishes nav ol li img{
+    object-fit: cover;
+    height: 200px;
+    width: 470px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.newyork-dishes nav ol li h1{
+    margin: 20px;
+    font-size: xx-large;
+    color: #EAE4B7;
+}
+
+.newyork-dishes nav ol li p{
+    padding: 5%;
+    color: #EAE4B7;
+    font-size: larger;
+    text-align: center;
+}
+
+.image-banner{
+    background-image: url('/newyork-web/images/crowds-of-people-crossing-street-on-zebra-crossing-in-new-york--usa-1161240357-8611563635fb4c9cb95b0cb66c34b85e\ 1.png');
+    width: 1481px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-banner p{
+    text-align: center;
+    align-self: center;
+    margin: 10%;
+    color: #EAE4B7;
+    font-size: 50px;
+}
+
+.diverse-dishes{
+    
+    display: grid;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #041c2a;
+    
+}
+
+.diverse-dishes h1{
+    
+    font-size: 50px;
+    text-align: center;
+    color: #FBBE48;
+    
+}
+
+.newyork-diverse-dishes{
+    margin: 0px 0px 30px 30px;
+    width: 1481px;
+    height: 500px;
+}
+
+.newyork-diverse-dishes nav ol{
+    list-style: none;
+    margin: 0px 0px 30px 30px;
+    display:  flex;
+    height: 500px;
+    align-items: stretch;
+}
+
+.newyork-diverse-dishes nav ol li{
+    
+    object-fit: cover;
+    margin: 0px 0px 30px 30px;
+    width: 400px;
+    overflow: hidden;
+    background-color: #D8272A;
+    align-items: flex-start;
+}
+
+.newyork-diverse-dishes nav ol li img{
+    object-fit: cover;
+    height: 200px;
+    width: 470px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.newyork-diverse-dishes nav ol li h1{
+    margin: 20px;
+    font-size: xx-large;
+    color: #EAE4B7;
+}
+
+.newyork-diverse-dishes nav ol li p{
+    padding: 5%;
+    color: #EAE4B7;
+    font-size: larger;
+    text-align: center;
+}
